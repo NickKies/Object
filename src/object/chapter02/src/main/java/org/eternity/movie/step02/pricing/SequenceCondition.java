@@ -1,7 +1,7 @@
 package object.chapter02.src.main.java.org.eternity.movie.step02.pricing;
 
-import object.chapter02.src.main.java.org.eternity.movie.step01.DiscountCondition;
-import object.chapter02.src.main.java.org.eternity.movie.step01.Screening;
+import object.chapter02.src.main.java.org.eternity.movie.step02.DiscountCondition;
+import object.chapter02.src.main.java.org.eternity.movie.step02.Screening;
 
 public class SequenceCondition implements DiscountCondition {
     private int sequence;

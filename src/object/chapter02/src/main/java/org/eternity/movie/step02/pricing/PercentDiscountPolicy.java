@@ -1,11 +1,12 @@
 package object.chapter02.src.main.java.org.eternity.movie.step02.pricing;
 
-import object.chapter02.src.main.java.org.eternity.money.Money;
-import object.chapter02.src.main.java.org.eternity.movie.step01.DiscountCondition;
-import object.chapter02.src.main.java.org.eternity.movie.step01.DiscountPolicy;
-import object.chapter02.src.main.java.org.eternity.movie.step01.Screening;
 
-public class PercentDiscountPolicy extends DiscountPolicy {
+import object.chapter02.src.main.java.org.eternity.money.Money;
+import object.chapter02.src.main.java.org.eternity.movie.step02.DefaultDiscountPolicy;
+import object.chapter02.src.main.java.org.eternity.movie.step02.DiscountCondition;
+import object.chapter02.src.main.java.org.eternity.movie.step02.Screening;
+
+public class PercentDiscountPolicy extends DefaultDiscountPolicy {
     private double percent;
 
     public PercentDiscountPolicy(double percent, DiscountCondition... conditions) {
